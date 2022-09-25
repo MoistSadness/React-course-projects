@@ -1,0 +1,37 @@
+.app-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container{
+    background-color: rgb(132, 132, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 60px;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	list-style: none;
+}
+
+.list-item{
+    margin-right: 10px;
+}
+
+
+.body{
+    flex-grow: 1;
+    margin-left: 5%;
+}
+
+.footer-container{
+    background-color: grey; 
+}

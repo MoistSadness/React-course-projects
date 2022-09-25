@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img{
+  max-width: 100%;
+}
+h1{
+  margin-bottom: 5%;
+}
+
+p{
+  margin-block: 0.5em
+}
+
+button{
+  width: 115px;
+  height: 34px;
+  border-radius: 7px;
+  border: none;
+}
+
+.container{
+  width: 317px;
+  background-color: #1A1B21;
+  border-radius: 25px;
+  overflow: hidden;
+
+  color: #F5F5F5;
+
+  display:flex;
+  flex-direction: column;
+}
+
+.info-container{
+  text-align: center;
+
+}
+
+.title{
+  color: #F3BF99;
+}
+
+.website{
+  font-size: 10px;
+  margin-bottom: 5%;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.email-button{
+  background-color: #D1D5DB;
+}
+
+.linkedin-button{
+  color: #FFFFFF;
+  background-color: #5093E2;
+}
+
+.text-container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.text-body{
+  font-size: 12px;
+}
+
+.nav-container{
+  background-color: #161619;
+  margin: 10%;
+
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon{
+  margin: 3%
+}
